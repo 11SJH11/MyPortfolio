@@ -46,7 +46,7 @@ button{
     transition: transform 0.2s;
 }
 
-.darkMode{
+.dark-mode-button{
     width: 100%;
     max-width: 30px; 
     border: none;
