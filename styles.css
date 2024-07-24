@@ -14,6 +14,18 @@
     --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
+body{
+    background-color: var(--bg-color);
+}
+body.dark-mode{
+    --bg-color: rgb(36, 36, 36);
+    --text-color: rgb(255, 255, 255);
+    --primary-color: rgb(0, 0, 0);
+    --border-color: rgb(255, 255, 255);
+    --card-bg-color: rgb(43, 43, 43);
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+}
 
 .container{
     max-width: 900px;
@@ -53,20 +65,23 @@ button{
     border: none;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h4,h6{
+    color: var(--text-color);
     font-size: 2.5em;
     font-weight: 700;
 }
 
 h5{
+    color: var(--text-color);
     font-size: 1.4em;
 }
 h3{
+    color: var(--text-color);
     font-size: 1em;
 }
 
-.tech-stack-container{
-
+.intro > p{
+    color: var(--text-color);
 }
 
 .tech-stack-logo{
